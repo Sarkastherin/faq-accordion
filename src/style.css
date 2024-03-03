@@ -36,7 +36,7 @@ body {
     top: 50px;
 }
 .title {
-    font-size: 3.2rem;
+    font-size: calc(40px + (50 - 40) * ((100vw - 320px) / (1440 - 320)));
     color: var(--Dark-purple);
     margin-bottom: 2rem;
 }
